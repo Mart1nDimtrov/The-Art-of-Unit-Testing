@@ -1,0 +1,1 @@
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\LogAn\bin\Debug\LogAn.exe.config

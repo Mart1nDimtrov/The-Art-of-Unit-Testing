@@ -1,0 +1,7 @@
+C:\Users\martin\Desktop\The Art of Unit Testing\01. The Basics of Unit Testing\01. SimpleParserTestProject\bin\Debug\_01.SimpleParserTestProject.exe.config
+C:\Users\martin\Desktop\The Art of Unit Testing\01. The Basics of Unit Testing\01. SimpleParserTestProject\bin\Debug\_01.SimpleParserTestProject.exe
+C:\Users\martin\Desktop\The Art of Unit Testing\01. The Basics of Unit Testing\01. SimpleParserTestProject\bin\Debug\_01.SimpleParserTestProject.pdb
+C:\Users\martin\Desktop\The Art of Unit Testing\01. The Basics of Unit Testing\01. SimpleParserTestProject\bin\Debug\_01.SimpleParserProject.exe
+C:\Users\martin\Desktop\The Art of Unit Testing\01. The Basics of Unit Testing\01. SimpleParserTestProject\bin\Debug\_01.SimpleParserProject.pdb
+C:\Users\martin\Desktop\The Art of Unit Testing\01. The Basics of Unit Testing\01. SimpleParserTestProject\obj\Debug\_01.SimpleParserTestProject.exe
+C:\Users\martin\Desktop\The Art of Unit Testing\01. The Basics of Unit Testing\01. SimpleParserTestProject\obj\Debug\_01.SimpleParserTestProject.pdb
