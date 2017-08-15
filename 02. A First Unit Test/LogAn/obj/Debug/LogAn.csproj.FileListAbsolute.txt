@@ -1,1 +1,6 @@
 C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\LogAn\bin\Debug\LogAn.exe.config
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\LogAn\bin\Debug\LogAn.exe
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\LogAn\bin\Debug\LogAn.pdb
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\LogAn\obj\Debug\LogAn.csprojResolveAssemblyReference.cache
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\LogAn\obj\Debug\LogAn.exe
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\LogAn\obj\Debug\LogAn.pdb

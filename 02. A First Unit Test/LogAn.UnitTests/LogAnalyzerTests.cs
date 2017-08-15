@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using LogAn.Models;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +12,11 @@ namespace LogAn.UnitTests
     public class LogAnalyzerTests
     {
         [Test]
-        public void IsValidFileName_BadExtensionReturnFalse()
+        public void IsValidFileName_BadExtension_ReturnFalse()
         {
-            // TODO: Add your test code here
-            Assert.Pass("Your first passing test");
+            LogAnalyzer logAnalyzer = new LogAnalyzer();
+            bool result = logAnalyzer.IsValidLogFileName("filewithbadextension.foo");
+            Assert.False(result);
         }
     }
 }
