@@ -8,12 +8,23 @@ namespace LogAn.Models
 {
     public class LogAnalyzer
     {
+        public bool WasLastFileNameValid { get; set; }
+
         public bool IsValidLogFileName(string fileName)
         {
-            if (fileName.EndsWith(".SLF"))
+            WasLastFileNameValid = false;
+            // this check has to come before the !fileName.EndsWith() to throw an exception
+            if (String.IsNullOrWhiteSpace(fileName) || String.IsNullOrEmpty(fileName))
+            {
+                throw new ArgumentException("filename has to be provided");
+            }
+
+            if (!fileName.EndsWith(".SLF", StringComparison.CurrentCultureIgnoreCase))
             {
                 return false;
             }
+
+            WasLastFileNameValid = true;
             return true;
         }
     }

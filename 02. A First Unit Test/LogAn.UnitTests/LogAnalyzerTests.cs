@@ -12,11 +12,50 @@ namespace LogAn.UnitTests
     public class LogAnalyzerTests
     {
         [Test]
-        public void IsValidFileName_BadExtension_ReturnFalse()
+        [Category("LogAn")]
+        public void IsValidFileName_GoodExtension_ReturnFalse()
         {
-            LogAnalyzer logAnalyzer = new LogAnalyzer();
+            LogAnalyzer logAnalyzer = MakeAnalyzer();
             bool result = logAnalyzer.IsValidLogFileName("filewithbadextension.foo");
             Assert.False(result);
         }
+
+        [TestCase("filewithgoodextension.slf")]
+        [TestCase("filewithgoodextension.SLF")]
+        [Category("LogAn")]
+        public void IsValidFileName_GoodExtension_ReturnTrue(string fileName)
+        {
+            LogAnalyzer logAnalyzer = MakeAnalyzer();
+            bool result = logAnalyzer.IsValidLogFileName(fileName);
+            Assert.True(result);
+        }
+
+
+        [Test]
+        [Category("LogAn")]
+        public void IsValidFileName_EmptyFileName_ThrowsException()
+        {
+            LogAnalyzer logAnalyzer = MakeAnalyzer();
+            ArgumentException ex = Assert.Catch<ArgumentException>(() => logAnalyzer.IsValidLogFileName(""));
+            StringAssert.Contains("filename has to be provided", ex.Message);
+
+        }
+
+        [TestCase("badfile.foo", false)]
+        [TestCase("goodfile.slf", true)]
+        [Category("LogAn")]
+        public void IsValidFileName_WhenCalled_ChangesWasLastFileNameValid(string fileName,
+            bool expected)
+        {
+            LogAnalyzer la = MakeAnalyzer();
+            la.IsValidLogFileName(fileName);
+            Assert.AreEqual(expected, la.WasLastFileNameValid);
+        }
+
+        private LogAnalyzer MakeAnalyzer()
+        {
+            return new LogAnalyzer();
+        }
+
     }
 }

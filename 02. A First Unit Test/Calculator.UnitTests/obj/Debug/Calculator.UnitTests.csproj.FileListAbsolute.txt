@@ -1,0 +1,9 @@
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\Calculator.UnitTests\obj\Debug\Calculator.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\Calculator.UnitTests\bin\Debug\Calculator.UnitTests.dll
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\Calculator.UnitTests\bin\Debug\Calculator.UnitTests.pdb
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\Calculator.UnitTests\bin\Debug\Calculator.exe
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\Calculator.UnitTests\bin\Debug\nunit.framework.dll
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\Calculator.UnitTests\bin\Debug\Calculator.pdb
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\Calculator.UnitTests\bin\Debug\nunit.framework.xml
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\Calculator.UnitTests\obj\Debug\Calculator.UnitTests.dll
+C:\Users\martin\Desktop\The Art of Unit Testing\02. A First Unit Test\Calculator.UnitTests\obj\Debug\Calculator.UnitTests.pdb
